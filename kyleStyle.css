@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   width: 70%;
+  font-size: 1.3rem;
 }
 
 #welcome-info {
@@ -15,19 +16,61 @@
   text-align: center;
 }
 
-#sign-up-area {
-  flex: 1;
-  text-align: center;
+#welcome-info > h4 {
+  flex: 2;
+  text-decoration: underline;
+  margin-bottom: 100px;
 }
 
-#create-account {
+#welcome-info > p {
+  flex: 1;
+}
+
+#sign-up-area-container {
+  flex: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  text-align: left;
+}
+
+input {
+  width: 230px;
+  height: 1.3rem;
+}
+
+.form-container-create > input {
+  width: 150px;
+  height: 1.8rem;
+  margin-top: 10px;
+}
+
+.form-container-info {
+  flex: 1;
+}
+
+.form-container-create {
   flex: 1;
   background-color: rgb(227, 222, 222);
-  text-align: center;
 }
 
-.image {
-  
+#name, #contact, #password {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+
+#name > div, #contact > div, #password > div {
+  display: flex;
+  flex-direction: column;
 }
 
 img {

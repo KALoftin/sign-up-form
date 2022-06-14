@@ -13,27 +13,67 @@
       <div class="main-container">
         <div class="sign-up-container">
           <div id="welcome-info">
-            <p>This is where info on the sign up goes</p>
+            <h4>This is a mock sign-up page and not a real service</h4>
+            <p>Create an account with SoCals premier boxing gym.</p>
+            <p>
+              First time participates will recieve their first lesson on us!
+            </p>
           </div>
-          <div id="sign-up-area">
-            <h3>Lets Get It!</h3>
+          <div id="sign-up-area-container">
             <form action="" method="get" class="form-container">
-              <div id="name">
-                <div>
-                  <label for="fname">First Name</label>
-                  <label for="lname">Last Name</label>
+              <div class="form-container-info">
+                <h3>Lets Get It!</h3>
+                <div id="name">
+                  <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="first-name" id="fname" required />
+                  </div>
+                  <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="last-name" id="lname" required />
+                  </div>
                 </div>
-                <div>
-                  <input type="text" name="first-name" id="fname" required />
-                  <input type="text" name="last-name" id="lname" required />
+                <div id="contact">
+                  <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required />
+                  </div>
+                  <div>
+                    <label for="pnumber">Phone Number</label>
+                    <input
+                      type="tel"
+                      name="phone-number"
+                      id="pnumber"
+                      required
+                    />
+                  </div>
+                </div>
+                <div id="password">
+                  <div>
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="confirmpass">Phone Number</label>
+                    <input
+                      type="password"
+                      name="confirm-password"
+                      id="confirmpass"
+                      required
+                    />
+                  </div>
                 </div>
               </div>
-              <div id="contact"></div>
-              <div id="password"></div>
+              <div class="form-container-create">
+                <input type="submit" value="Confirm Account" />
+                <p>Already have an account? <a href="#">Sign-in</a></p>
+              </div>
             </form>
-          </div>
-          <div id="create-account">
-            <input type="submit" value="Sign up" />
           </div>
         </div>
         <div class="image">
