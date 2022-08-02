@@ -123,3 +123,14 @@ img#boxing-woman {
   height: 100%;
   z-index: 1;
 }
+
+#photo-credit {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+#photo-credit a {
+  color: white;
+  text-decoration: none;
+}
